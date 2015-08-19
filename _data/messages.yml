@@ -1,0 +1,31 @@
+---
+- date: August 19, 2015
+  time: "00:00 GMT+0"
+  message: All systems reporting at 100%
+  state: successful
+
+- date: August 16, 2015
+  time: "22:17 GMT+0"
+  message: Everything operating normally.
+  state: successful
+
+- date: August 16, 2015
+  time: "21:43 GMT+0"
+  message: We're working to remediate an issue affecting online/offline status of some units.
+  state: warning
+
+- date: August 01, 2015
+  time: "13:55 GMT+0"
+  message: Everything operating normally.
+  state: successful
+
+- date: August 01, 2015
+  time: "12:23 GMT+0"
+  message: We're investigating an issue affecting traffic reports.
+  state: error
+
+
+- date: August 01, 2015
+  time: "00:00 GMT+0"
+  message: All systems reporting at 100%
+  state: successful

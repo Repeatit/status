@@ -1,0 +1,6 @@
+status: successfull # successfull error or warning
+message: >
+  All systems operational. <br />
+  However, we have had some issues resulting in temporary downtime
+  of some services. This is currently being looked into, and there
+  may be some further occasional disruptions in the meantime.

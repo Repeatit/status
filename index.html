@@ -1,49 +1,23 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Repeatit System Status</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <style type="text/css">
-      .conteiner {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-      }
-      p.status {
-        border: 1px solid #e1e1e8;
-        border-radius: 4px;
-        padding: 15px;
-        margin-bottom: 10px;
-        background: #cce8f5;
-        border-color: #025f8b;
-        color: #025f8b;
-      }
-    </style>
-  </head>
-  <body>
-    <section class="main-content">
-      <div class="conteiner">
-        <a href="/" class="images">
-          <img src="images/logo-repeatit-outside.gif" alt="logo">
-        </a>
-      </div>
-      <div class="conteiner">
-        <p class="status">
-	  <b>2015-08-18: All systems operational</b><br/>
-	  However, we have had some issues resulting in temporary downtime
-	  of some services. This is currently being looked into, and there
-	  may be some further occasional disruptions in the meantime.
-	</p>
-      </div>
-    </section>
+---
+layout: default
+title: Home
+---
 
+{% assign messages_by_date = site.data.messages | group_by: "date" %}
 
-
-  </body>
-</html>
+<ul>
+  {% for date in messages_by_date %}
+    <li class='date-event'>
+    <h3 class="date">{{ date.name }}</h3>
+    <ul>
+      {% for message in date.items %}
+        <li class="time-event">
+          <p class="time">{{ message.time }}</p>
+          <p class="{{ message.state }}-event">
+            {{ message.message }}
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</ul>
