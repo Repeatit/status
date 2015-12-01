@@ -1,5 +1,15 @@
 ---
-date: August 19, 2015
+- date: December 1, 2015
+  time: "08:10 GMT+0"
+  message: Monthly Reports now temporarily turned off, all other systems operational.
+  state: successful
+
+- date: December 1, 2015
+  time: "08:00 GMT+0"
+  message: Monthly Reports are being sent multiple times.
+  state: warning
+
+- date: August 19, 2015
   time: "00:00 GMT+0"
   message: All systems reporting at 100%
   state: successful
