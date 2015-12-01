@@ -1,8 +1,2 @@
 status: successfull # successfull error or warning
-message: >
-Monthly Report now temporarily turned off, all other systems operational. <br />
-We currently have a problem with the Monthly Report service.
-This caused monthly reports to be sent multiple times.
-We are sorry for the inconvenience with this and are working to restore the problem.
-(It is possible to turn the reports off, this is done under the "My account" tab
-when logged in.)
+message: "Monthly Report now temporarily turned off, all other systems operational. <br /> We currently have a problem with the Monthly Report service. This caused monthly reports to be sent multiple times. We are sorry for the inconvenience with this and are working to restore the problem. (It is possible to turn the reports off, this is done under the \"My account\" tab when logged in.)"
