@@ -1,12 +1,4 @@
 ---
-- date: December 1, 2015
-  time: "08:00 GMT+0"
-  message: We currently have a problem with the Mail services in the server.
-  This causes monthly reports to be sent multiple times.
-  We are sorry for the inconvinience with this and are working to restore the problem.
-  (It is possible to turn the reports off, this is done in the "Cluster Preferences".)
-  state: Mail Service problems
-  
 date: August 19, 2015
   time: "00:00 GMT+0"
   message: All systems reporting at 100%
