@@ -1,10 +1,7 @@
 ---
 - date: August 31, 2016
   time: "08:10 GMT+0"
-  message: Currently the system shows various problems with statistics gathering, we are investigating the problem.
-  System will from time to time be offline, this does not affect the links, only the cloud.
-  When system is upp and running at 100% again there could be warning emails most of them will not be true, they will be a
-  result of the server problems and that units has lost connection to the server.
+  message: Currently the system shows various problems with statistics gathering, we are investigating the problem. System will from time to time be offline, this does not affect the links, only the cloud. When system is upp and running at 100% again there could be warning emails most of them will not be true, they will be a result of the server problems and that units has lost connection to the server.
   state: warning
   
 - date: December 1, 2015
