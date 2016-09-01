@@ -1,4 +1,9 @@
 ---
+- date: August 31, 2016
+  time: "08:10 GMT+0"
+  message: Currently the system shows various problems with statistics gathering, we are investigating the problem.
+  state: warning
+  
 - date: December 1, 2015
   time: "08:10 GMT+0"
   message: Monthly Reports now temporarily turned off, all other systems operational.
